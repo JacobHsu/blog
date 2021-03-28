@@ -10,6 +10,12 @@ npm install
 hexo server
 ```
 
+```s
+yarn server  
+yarn build  
+yarn deploy  
+```
+
 ## theme
 
 `npm i hexo-theme-next`  
@@ -22,3 +28,20 @@ _config.yml
 ## Themes: https://hexo.io/themes/
 theme: next #landscape
 ```
+
+## deploy
+
+https://jacobhsu.github.io
+
+_config.yml
+```s
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repository: https://github.com/JacobHsu/jacobhsu.github.io # https://github.com/JacobHsu/hexo
+  branch: main #gh-pages
+```
+
+> ERROR Deployer not found: git
+`npm install hexo-deployer-git --save`  
