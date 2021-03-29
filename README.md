@@ -45,3 +45,15 @@ deploy:
 
 > ERROR Deployer not found: git
 `npm install hexo-deployer-git --save`  
+
+## theme-next
+
+
+blog\node_modules\hexo-theme-next\_config.yml
+
+```js
+# Local Search
+# Dependencies: https://github.com/next-theme/hexo-generator-searchdb
+local_search:
+  enable: true #false
+```
