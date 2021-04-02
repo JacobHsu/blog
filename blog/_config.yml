@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Jacob Hello World
 subtitle: ''
-description: ''
+description: 'Coding notes'
 keywords:
-author: John Doe
-language: en
+author: Jacob Hsu
+language: zh-tw
 timezone: ''
 
 # URL
