@@ -25,4 +25,15 @@ categories: js
   import './index.js';
 </script>
 ```
- 
+
+### 類陣列轉成純陣列
+
+`...` 展開
+
+```js
+// 當看到陣列是屬於類陣列 方法不足時 可以透過展開形式 轉成純陣列
+const doms = document.querySelectorAll('li');
+console.log(doms); // 請轉為純陣列
+const newDoms = [...doms]
+console.log(newDoms)
+```
