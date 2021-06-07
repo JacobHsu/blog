@@ -33,6 +33,8 @@ theme: next #landscape
 
 https://jacobhsu.github.io
 
+push to `https://github.com/JacobHsu/jacobhsu.github.io`
+
 _config.yml
 ```s
 # Deployment
