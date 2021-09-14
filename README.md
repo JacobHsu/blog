@@ -16,6 +16,8 @@ yarn build
 yarn deploy  
 ```
 
+Hexo is running at http://localhost:4000 .
+
 ## theme
 
 `npm i hexo-theme-next`  
