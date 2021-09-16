@@ -18,6 +18,10 @@ yarn deploy
 
 Hexo is running at http://localhost:4000 .
 
+## hexo
+
+
+
 ## theme
 
 `npm i hexo-theme-next`  
@@ -30,6 +34,10 @@ _config.yml
 ## Themes: https://hexo.io/themes/
 theme: next #landscape
 ```
+
+[configuration](https://theme-next.js.org/docs/getting-started/configuration.html)
+
+`cp node_modules/hexo-theme-next/_config.yml _config.next.yml`
 
 ## deploy
 
