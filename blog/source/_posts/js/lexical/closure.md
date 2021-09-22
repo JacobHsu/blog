@@ -38,6 +38,17 @@ myFunc();
 `displayName` 的實例保有了其作用域環境的參照，作用域裡則內含 name 變數。因此，在調用 myFunc 時，` name 變數被保存、並能作它用。` 「Mozilla」一詞也因此傳給了 alert。
 >  myFunc 有權訪問另一個函數作用域 displayName 中的變量的函數
 
+**什麼是閉包**
+
+閉包是一種特殊的對象，它由兩部分組成：執行上下文（代號 A），
+以及在該執行上下文中創建的函數 （代號 B），
+當 B 執行時，如果訪問了 A 中變量對象的值，那麼閉包就會產生，且在 Chrome 中使用這個執行上下文 A 的函數名代指閉包。
+
+**一般如何產生閉包**
+
+返回函數
+函數當做參數傳遞
+
 ## References
 
 [閉包- JavaScript | MDN](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Closures)
