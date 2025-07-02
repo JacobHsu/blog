@@ -7,10 +7,13 @@ tags: practice
 
 ---
 
-###   
-learn to code  
-  
+### learn to code
+
 [freeCodeCamp](https://www.freecodecamp.org/)  
 [BFE.dev](https://bigfrontend.dev/)  
 [GreatFrontEnd](https://www.greatfrontend.com/)  
 [DataCamp: Learn Data Science and AI Online](https://www.datacamp.com/)
+
+### AI
+
+[Manus AI](https://manus.im/) 300 points/d
